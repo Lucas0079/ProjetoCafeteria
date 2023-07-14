@@ -1,0 +1,242 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    list-style: none;
+}
+
+/* secao topo */
+
+.topo{
+    width: 100%;
+    height: 100px;
+    background-color: #604829;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+
+
+.topo img{
+    width: 130px;
+}
+
+.topo div a{
+    margin: 0px 40px;
+    color: #c4a47c;
+    font-size: 18px;
+
+}
+
+/* secao banner */
+
+.container-efeito-parallax1,.container-efeito-parallax2, .banner, .secao-contato, .secao-horarios{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.banner{
+    background-image: url("../assets/parallax-imagem1.png");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1{
+    color: #fff;
+    font-size: 100px;
+    box-shadow: 5px 5px 20px 0px black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* secao informações */
+
+    .secao-informacoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .container-textual{
+        width: 90%;
+        text-align: center;
+        padding: 100px;
+        line-height: 40px;
+    }
+
+    .container-textual p {
+        font-size: 18px;
+        color: #666;
+    }
+
+    .container-textual h2{
+        margin-bottom: 50px;
+        color: #c4a47c;
+    }
+
+    /* containers parallax */
+
+
+    .container-efeito-parallax1{
+        background-image: url("../assets/parallax-imagem2.jpg");
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+   .secao-informacoes h3{
+        background-color: #604829;
+        padding: 20px;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .container-efeito-parallax2{
+        background-image: url("../assets/parallax-imagem3.jpg");
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* secao contato */
+
+    .secao-contato{
+        background-image: url("../assets/parallax-imagem4.png");
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    iframe{
+        width: 70%;
+    }
+
+    .secao-contato h2{
+        color: #fff;
+        background-color: #604829;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .bloco-texto{
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+        background-color: #604829;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+
+    /* secao horarios */
+
+    .secao-horarios{
+        padding: 100px 20px;
+        background-image: url("../assets/cafeteria.jpg");
+        background-position: center;
+        background-size: cover;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .secao-horarios h2{
+        margin-bottom: 50px;
+    }
+
+    .lista-horarios{
+        width: 100%;
+        max-width: 768px;
+    }
+
+    .lista-horarios li{
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .lista-horarios li h3{
+        flex: 0 1 80px;
+    }
+
+    .lista-horarios li p, span{
+        flex: 0 1 100px;
+        text-align: right;
+    }
+
+    .lista-horarios div{
+        height: 1px;
+        background-color: #666;
+        flex:  1 1 auto;
+    }
+
+    .lista-horarios span{
+        color: #c4a47c;
+    }
+
+    .rodape{
+        width: 100%;
+        background-color: black;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+        padding: 10px;
+    }
+
+    .rodape .copy {
+        margin-top: 40px;
+    }
+
+    .rodape img{
+        position: absolute;
+        top: -20px;
+        right: 10%;
+        transition: .1s;
+    }
+
+    .rodape img:hover{
+        transform: scale(1.07);
+        box-shadow: 0px 0px 5px 5px #c4a47c;
+        border-radius: 60%;
+    }
+
+
+   
+
+    
+   
+
+   
+
+    
+
+
+
+    
+    
+
