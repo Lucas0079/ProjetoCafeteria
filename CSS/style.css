@@ -226,6 +226,91 @@
     }
 
 
+    /* Responsividade */
+
+    @media only screen and (min-width: 769px) and (max-width: 1280px){
+        .banner  h1{
+            margin: 10px;
+        }
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 768px){
+        .topo{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .topo img{
+            width: 60px;
+        }
+
+        .links{
+            display: flex;
+        }
+
+        .topo div a{
+            margin: 0px 10px;
+        }
+
+        .banner{
+            height: 60vh;
+            background-attachment: scroll;
+        }
+
+        .banner h1{
+            font-size: 50px;
+            margin: 10px;
+        }
+
+        .container-textual{
+            padding: 10px;
+        }
+    }
+
+
+
+    @media only screen and (min-width: 320px) and (max-width: 480px){
+        .topo{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .topo img{
+            width: 60px;
+        }
+
+        .links{
+            display: flex;
+        }
+
+        .topo div a{
+            margin: 0px 10px;
+        }
+
+        .banner{
+            height: 60vh;
+            background-attachment: scroll;
+        }
+
+        .banner h1{
+            font-size: 50px;
+            margin: 10px;
+        }
+
+        .container-textual{
+            padding: 10px;
+        }
+
+        
+    }
+
+
    
 
     
